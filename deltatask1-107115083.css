@@ -1,0 +1,51 @@
+
+/* Sets background , text-color to black and aligns text in center and gives spacing for the margin for body */
+body{
+	background-image: url("deltatask1-107115083.jpeg"); 
+	color: white;
+	text-align: center;
+	margin-top: 150px;
+	}
+
+/* sets text color to red, uses monospace font */
+	.h1{
+		text-align: center;
+		color: red;
+		font-family: monospace;
+	}
+
+	/* all the tags with class button (submit and reset) would get a green background, white text and padding. The text aligns to the center and border is set to
+		none so that the default border is not seen, font size is set to 16px */	
+	.button {
+    background-color: green;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    border: none;
+    font-size: 16px;
+    }
+
+    /*the input boxes get a fontsize of 18px, curved border and text aligns to right. The width of the box is set to 6% of th width of the page */
+	
+	input[type="text"] {
+  text-align: right;
+  width: 6%;
+  font-family: sans-serif;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+input[type="number"] {
+	 font-size: 18px;
+	 text-align: right;
+	 font-family: sans-serif;
+   	 width: 6%;
+ 	 border-radius: 10px;
+	}
+
+#txt{
+color: white;
+font-size: 200%;
+font-family: "Comic Sans MS";
+font-weight: bold;
+}

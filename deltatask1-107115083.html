@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="deltatask1-107115083.css"> <!--LINKING CSS WITH EXISTING HTML -->
+</head>
+
+<body>
+
+<h1 class="h1">TIMER-COUNTDOWN FOR EVENT</h1>
+												
+<!-- CREATING BOXES FOR USER TO INPUT DETAILS (HOURS,MINUTES,SECONDS,MONTH,DATE,YEAR ARE REQUIRED PARAMETERS) -->
+<div> 
+<p>
+
+MONTH: <input type="text" name="n6" id="mon" class="mytext">  
+DATE: <input type="number" name="n2" id="dat" class="mytext">  
+YEAR: <input type="number" name="n1" id="yr" class="mytext">
+HOURS: <input type="number" name="n3" id="hrs" class="mytext">                            
+MINUTES: <input type="number" name="n4" id="min" class="mytext">  
+SECONDS: <input type="number" name="n5" id="sec" class="mytext"><br><br>    
+<input type="submit" onclick="init()" class="button">  <br><br>            <!--onclick of submit calls init(); -->
+<INPUT TYPE="button" onClick="history.go(0)" VALUE="Reset" class="button">	<!--onlick of reset refreshes thr page -->
+
+</p>
+</div>
+
+<div id="txt"></div>	<!-- To write inner HTML part of the script -->
+
+<script type="text/javascript" src="deltatask1-107115083.js"></script>  <!-- Linking the program with the javascript file -->
+
+</body>
+</html>
